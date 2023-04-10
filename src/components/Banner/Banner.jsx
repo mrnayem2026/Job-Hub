@@ -1,7 +1,7 @@
 import React from 'react';
 import person from '../../assets/all_image/person.png';
 
-const Hero = () => {
+const Banner = () => {
     return (
         <div className='container mx-auto flex flex-col lg:flex-row justify-between px-4 lg:px-0 '>
             <div className=' mt-8 lg:my-auto'>
@@ -18,4 +18,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default Banner;
