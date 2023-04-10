@@ -1,10 +1,11 @@
 import React from 'react';
+import Hero from '../Hero/Hero';
 
 const Main = () => {
     return (
-        <div>
-            I am form Main
-        </div>
+        <>
+            <Hero></Hero>
+        </>
     );
 };
 

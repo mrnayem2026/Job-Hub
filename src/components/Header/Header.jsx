@@ -11,7 +11,7 @@ const Header = () => {
         <nav className='relative container  mx-auto flex justify-between mt-10 '>
 
             <Link to='/'>
-                <h1 className='text-2xl lg:text-4xl lg:font-bold tracking-wide ' >CareerBoost</h1>
+                <h1 className='text-4xl  lg:font-bold tracking-wide ' >CareerBoost</h1>
             </Link>
 
             <div>
