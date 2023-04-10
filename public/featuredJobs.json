@@ -1,7 +1,7 @@
 [
     {
       "id": "01",
-      "company_logo": "../src/assets/logo/facebook.png",
+      "company_logo": "https://ibb.co/n7Dh5zx",
       "company _name": "Facebook",
       "job_title":"Software Engineer",
       "remote_or_onsite": "Remote",
@@ -16,7 +16,7 @@
     },
     {
       "id": "02",
-      "company_logo": "../src/assets/logo/google.png",
+      "company_logo": "https://ibb.co/J5wVscb",
       "company _name": "Google",
       "job_title":"Software Developer",
       "remote_or_onsite": "Onsite",
@@ -31,7 +31,7 @@
     },
     {
       "id": "03",
-      "company_logo": "../src/assets/logo/linkdin.png",
+      "company_logo": "https://ibb.co/f9MMHdD",
       "company _name": "Linkdin",
       "job_title":"Full Stack Developer",
       "remote_or_onsite": "Remote",
@@ -46,7 +46,7 @@
     },
     {
       "id": "04",
-      "company_logo": "../src/assets/logo/netflix.png",
+      "company_logo": "https://ibb.co/wstGRbX",
       "company _name": "Netflix",
       "job_title":"Front-End Developer",
       "remote_or_onsite": "Remote",
@@ -61,7 +61,7 @@
     },
     {
       "id": "05",
-      "company_logo": "../src/assets/logo/tesla.png",
+      "company_logo": "https://ibb.co/C77hW0V",
       "company _name": "Tesla",
       "job_title":"Back-End Developer",
       "remote_or_onsite": "Remote",
@@ -76,7 +76,7 @@
     },
     {
       "id": "06",
-      "company_logo": "../src/assets/logo/twitter.png",
+      "company_logo": "https://ibb.co/DVzY5tc",
       "company _name": "Twitter",
       "job_title":"Software Engineer",
       "remote_or_onsite": "Remote",
