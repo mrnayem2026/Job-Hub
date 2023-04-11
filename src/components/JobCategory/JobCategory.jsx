@@ -21,7 +21,7 @@ const JobCategory = () => {
                 <h1 className='text-4xl font-bold'>Job Category List</h1>
                 <p className='text-lg text-gray-500'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
-             {/* Job Title Start  */}
+             {/* Job Title end  */}
 
              {/* Job Card Start  */}
             <div className='mb-5 lg:mb-36  flex flex-col lg:flex-row justify-between'>

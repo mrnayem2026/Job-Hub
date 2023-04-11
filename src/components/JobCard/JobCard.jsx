@@ -2,7 +2,6 @@ import React from 'react';
 
 const JobCard = ({job}) => {
     const {id,category_name,category_logo,jobs_available} = job;
-    console.log(id);
     return (
         <>
             <div className='bg-purple-100 pl-10 pr-20 py-10 rounded-lg'>
