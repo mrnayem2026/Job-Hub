@@ -40,7 +40,7 @@ Don’t forget to add a banner at the top.
 9) Create a statistics page. It cannot be a simple line/bar chart. The chart will be
 based on the assignment marks (all the marks you got so far) against the
 assignment number. Don’t forget to give tooltips
-10)Create a 404 page
+10)Create a 404 page ✅
 
 Bonus requirements:
 
