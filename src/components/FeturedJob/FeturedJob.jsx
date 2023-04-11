@@ -24,14 +24,16 @@ const FeturedJob = () => {
             {/* Fetured Job Title end  */}
 
             {/* Fetured Job Card display Start  */}
-            <div className='gird grid-cols-12'>
+            <div className='grid  lg:grid-cols-2 gap-5 lg:gap-7 my-6'>
                 {
-                    fetureJob?.slice(0 , showAll ? 6 : 4 ).map((oneJobCard)=> <FeturedJobCard key={oneJobCard.id} oneJobCard={oneJobCard}></FeturedJobCard>)
+                    fetureJob?.slice(0, showAll ? 6 : 4).map((oneJobCard) => <FeturedJobCard key={oneJobCard.id} oneJobCard={oneJobCard}></FeturedJobCard>)
                 }
+            </div>
 
-                <div className='text-center'>
-                <button className="btn common_btn text-2xl  font-bold  text-white border-0" onClick={()=>setShowAll(true)}>See All Jobs</button>
-                </div>
+            <div className='text-center'>
+                {
+                    !showAll && <button className="btn common_btn text-2xl  font-bold  text-white border-0" onClick={() => setShowAll(true)}>See All Jobs</button>
+                }
             </div>
             {/* Fetured Job Card display end  */}
 

@@ -4,7 +4,7 @@ Main requirements:
 brand name), navigation options like Statistics, Applied Jobs, and Blog, and a
 button ✅
 2) The homepage should have a Banner , Category List section, and Featured job
-section
+section ✅
 3) Create a JSON for the category and show 4 cards having the following
 information in the category section: ✅
 a) Category logo
@@ -29,7 +29,7 @@ m) Contact information(phone, email)
 
 5) At first, the featured section will show the first four job cards containing all the
 information as shown in the figma. This featured section will also contain a see
-all jobs button at the bottom of these cards.
+all jobs button at the bottom of these cards. ✅
 
 6) Clicking on the View Details button will redirect the user to the /job/:id route
 where he/she will see a banner and all the details as shown in the figma.
@@ -58,7 +58,7 @@ show 404 after the reload. Moreover, you must make the home page responsive for
 mobile and desktop.
 4. Your repository must have a minimum of 10 meaningful GitHub commits. Create a
 Readme file and make a list of the best features of your project. The list can be ordered
-or unordered. The Readme file must contain a live link(hosting) of your project.
+or unordered. The Readme file must contain a live link(hosting) of your project.  
 
 Optional:
 1) Create a footer

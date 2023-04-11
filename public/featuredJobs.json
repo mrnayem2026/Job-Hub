@@ -1,8 +1,8 @@
 [
     {
       "id": "01",
-      "company_logo": "../src/assets/logo/facebook.png",
-      "company_name": "Facebook",
+      "company_logo": "../src/assets/logo/netflix.png",
+      "company_name": "Netflix",
       "job_title":"Software Engineer",
       "remote_or_onsite": "Remote",
       "location": "US",
@@ -31,8 +31,8 @@
     },
     {
       "id": "03",
-      "company_logo": "../src/assets/logo/linkdin.png",
-      "company_name": "Linkdin",
+      "company_logo": "../src/assets/logo/tesla.png",
+      "company_name": "Tesla",
       "job_title":"Full Stack Developer",
       "remote_or_onsite": "Remote",
       "location": "Canada",
@@ -49,7 +49,7 @@
       "company_logo": "../src/assets/logo/netflix.png",
       "company_name": "Netflix",
       "job_title":"Front-End Developer",
-      "remote_or_onsite": "Remote",
+      "remote_or_onsite": "Onsite",
       "location": "Bangladesh",
       "fulltime_part_time": "Full Time",
       "salary": "15k",
@@ -76,8 +76,8 @@
     },
     {
       "id": "06",
-      "company_logo": "../src/assets/logo/twitter.png",
-      "company_name": "Twitter",
+      "company_logo": "../src/assets/logo/netflix.png",
+      "company_name": "Netflix",
       "job_title":"Software Engineer",
       "remote_or_onsite": "Remote",
       "location": "UK",

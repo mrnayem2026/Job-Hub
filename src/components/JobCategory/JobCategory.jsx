@@ -24,7 +24,7 @@ const JobCategory = () => {
              {/* Job Title end  */}
 
              {/* Job Card Start  */}
-            <div className='mb-5 lg:mb-36  flex flex-col lg:flex-row justify-between'>
+            <div className='mb-5 lg:mb-36  flex flex-col gap-4 lg:gap-0 lg:flex-row justify-between'>
             {
                 jobs.map((job)=> <JobCard key={job.id} job={job}></JobCard>)
              }
