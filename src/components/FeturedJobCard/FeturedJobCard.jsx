@@ -8,7 +8,7 @@ const FeturedJobCard = ({ oneJobCard }) => {
         location, fulltime_part_time, salary, job_description, job_responsibility,
         educational_requirements, experiences, contact_information_email
     } = oneJobCard;
-    console.log(id);
+    // console.log(id);
     const navigate = useNavigate()
     return (
         <div className='py-10 pl-10 rounded-lg border-solid border-2 border-gray-500-500'>
@@ -39,7 +39,7 @@ const FeturedJobCard = ({ oneJobCard }) => {
 
             {/* button start  */}
            
-                <button onClick={()=>navigate(`foodDetails/${id}`)} className="btn common_btn text-2xl  font-bold  text-white border-0">View Details</button>
+                <button onClick={()=>navigate(`job/${id}`)} className="btn common_btn text-2xl  font-bold  text-white border-0">View Details</button>
             
             {/* button end  */}
         </div>

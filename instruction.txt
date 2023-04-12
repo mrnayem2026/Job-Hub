@@ -32,7 +32,7 @@ information as shown in the figma. This featured section will also contain a see
 all jobs button at the bottom of these cards. ✅
 
 6) Clicking on the View Details button will redirect the user to the /job/:id route
-where he/she will see a banner and all the details as shown in the figma.
+where he/she will see a banner and all the details as shown in the figma. ✅
 
 7) Clicking on the Apply Now button will add that job information to local storage.
 
