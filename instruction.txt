@@ -37,7 +37,7 @@ where he/she will see a banner and all the details as shown in the figma. ✅
 7) Clicking on the Apply Now button will add that job information to local storage. ✅
 
 8) Create an Applied Jobs page showing all the applied jobs in a tabular/list view.
-Don’t forget to add a banner at the top.
+Don’t forget to add a banner at the top. ✅
 
 9) Create a statistics page. It cannot be a simple line/bar chart. The chart will be
 based on the assignment marks (all the marks you got so far) against the

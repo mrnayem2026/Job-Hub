@@ -11,7 +11,7 @@ const FeturedJobCard = ({ oneJobCard }) => {
     // console.log(id);
     const navigate = useNavigate()
     return (
-        <div className='py-10 pl-10 rounded-lg border-solid border-2 border-gray-500-500'>
+        <div className='py-10 pl-10 rounded-lg border-solid border-2 border-gray-300'>
             {/* logo start  */}
             <img src={company_logo} alt="companyLogo" className='object-cover' />
             {/* logo end */}

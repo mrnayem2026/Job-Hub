@@ -5,20 +5,20 @@ const jobLoader = async () => {
     const jobs = await loadedJobs.json();
 
     const storedJob = getStoredCart();
-    
+
     const saveJob = []
 
-    for(const id in storedJob){
-        const addedJob = jobs.find((job)=>job.id === id);
-        
-            // if(addedJob){
-            //     addedJob.quantity = storedJob[id];
-                storedJob.push(addedJob)
-            // }
-        
+    for (const id in storedJob) {
+        const addedJob = jobs.find((job) => job.id === id);
 
+        if (addedJob) {
+            addedJob.quantity = storedJob[id];
+            saveJob.push(addedJob)
         }
-        return saveJob;
+
+
+    }
+    return saveJob;
 }
 
-export {jobLoader}
+export { jobLoader }
