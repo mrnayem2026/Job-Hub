@@ -1,7 +1,7 @@
 [
     {
       "id": "01",
-      "company_logo": "../src/assets/logo/netflix.png",
+      "company_logo": "/assets/logo/netflix.png",
       "company_name": "Netflix",
       "job_title":"Software Engineer",
       "remote_or_onsite": "Remote",
@@ -16,7 +16,7 @@
     },
     {
       "id": "02",
-      "company_logo": "../src/assets/logo/google.png",
+      "company_logo": "/assets/logo/google.png",
       "company_name": "Google",
       "job_title":"Software Developer",
       "remote_or_onsite": "Onsite",
@@ -31,8 +31,8 @@
     },
     {
       "id": "03",
-      "company_logo": "../src/assets/logo/tesla.png",
-      "company_name": "Tesla",
+      "company_logo": "/assets/logo/tesla.png",
+      "company_name":"Tesla",
       "job_title":"Full Stack Developer",
       "remote_or_onsite": "Remote",
       "location": "Canada",
@@ -46,7 +46,7 @@
     },
     {
       "id": "04",
-      "company_logo": "../src/assets/logo/netflix.png",
+      "company_logo": "/assets/logo/netflix.png",
       "company_name": "Netflix",
       "job_title":"Front-End Developer",
       "remote_or_onsite": "Onsite",
@@ -61,7 +61,7 @@
     },
     {
       "id": "05",
-      "company_logo": "../src/assets/logo/tesla.png",
+      "company_logo": "/assets/logo/tesla.png",
       "company_name": "Tesla",
       "job_title":"Back-End Developer",
       "remote_or_onsite": "Remote",
@@ -76,7 +76,7 @@
     },
     {
       "id": "06",
-      "company_logo": "../src/assets/logo/netflix.png",
+      "company_logo":"/assets/logo/netflix.png",
       "company_name": "Netflix",
       "job_title":"Software Engineer",
       "remote_or_onsite": "Remote",

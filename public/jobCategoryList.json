@@ -2,25 +2,25 @@
     {
       "id": "01",
       "category_name": "Account & Finance",
-      "category_logo":"../src/assets/Icons/accountsFinance.png",
+      "category_logo":"/assets/Icons/accountsFinance.png",
       "jobs_available": "300"
     },
     {
       "id": "02",
       "category_name": "Creative Design",
-      "category_logo":"../src/assets/Icons/creativeDesign.png",
+      "category_logo":"/assets/Icons/creativeDesign.png",
       "jobs_available": "100+"
     },
     {
       "id": "03",
       "category_name": "Marketing & Sales",
-      "category_logo":"../src/assets/Icons/marketing.png",
+      "category_logo":"/assets/Icons/marketing.png",
       "jobs_available": "150"
     },
     {
       "id": "04",
       "category_name": "Engineering Job",
-      "category_logo":"../src/assets/Icons/engineeringJob.png",
+      "category_logo":"/assets/Icons/engineeringJob.png",
       "jobs_available": "224"
     } 
   ]

@@ -4,6 +4,7 @@ import dollar from '../../assets/Icons/dollar2.png'
 import Job from '../../assets/Icons/job.png'
 import mail from '../../assets/Icons/mail.png'
 import location2 from '../../assets/Icons/location2.png'
+import { addToDb } from '../../utilities/fakedb';
 
 const JobDetils = () => {
     const { jobId } = useParams();
@@ -16,6 +17,11 @@ const JobDetils = () => {
     } = selectedItem;
 
     // console.log(company_name);
+
+    const addToLocalStorageSelectedJob = (id) =>{
+        // console.log(id);
+        addToDb(id)
+    }
 
     return (
         <div className='container mx-auto'>
@@ -76,7 +82,7 @@ const JobDetils = () => {
                         </div>
 
                         <div className='text-center'>
-                            <button className="btn common_btn text-2xl  font-bold  text-white border-0 w-6/12">Apply Now</button>
+                            <button onClick={()=>addToLocalStorageSelectedJob(id)} className="btn common_btn text-2xl  font-bold  text-white border-0 w-6/12">Apply Now</button>
                         </div>
                     </div>
 
