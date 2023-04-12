@@ -7,6 +7,6 @@ Hosted in Netlify -> [CareerBoost]()
 
 ## Best features of "CareerBoost" project.
 
-1 -> kladkfj br
-1 -> kladkfj br
-1 -> kladkfj
+- Item 1
+- Item 2
+- Item 3
