@@ -14,4 +14,7 @@ And can apply there.
 - Click on Show all jobs to see what jobs are available
 will see
 - If you click on Applied Jobs, you can see which jobs you have applied for.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 68974ae (readme file agine added)
