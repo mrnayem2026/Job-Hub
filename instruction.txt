@@ -80,3 +80,6 @@ Submit two things:
 Deadline:
 1. 60 marks 3 days
 2. 50 marks 0 day
+
+git push origin HEAD:master --force
+
