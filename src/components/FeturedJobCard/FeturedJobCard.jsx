@@ -1,12 +1,15 @@
 import React from 'react';
 import Location from "../../assets/Icons/location1.png"
 import Dollar from "../../assets/Icons/doller1.png"
+import { useNavigate } from "react-router-dom";
 
 const FeturedJobCard = ({ oneJobCard }) => {
     const { id, company_logo, company_name, job_title, remote_or_onsite,
         location, fulltime_part_time, salary, job_description, job_responsibility,
         educational_requirements, experiences, contact_information_email
     } = oneJobCard;
+    console.log(id);
+    const navigate = useNavigate()
     return (
         <div className='py-10 pl-10 rounded-lg border-solid border-2 border-gray-500-500'>
             {/* logo start  */}
@@ -35,7 +38,9 @@ const FeturedJobCard = ({ oneJobCard }) => {
             {/* location  */}
 
             {/* button start  */}
-            <button className="btn common_btn text-2xl  font-bold  text-white border-0">View Details</button>
+           
+                <button onClick={()=>navigate(`foodDetails/${id}`)} className="btn common_btn text-2xl  font-bold  text-white border-0">View Details</button>
+            
             {/* button end  */}
         </div>
     );

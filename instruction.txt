@@ -35,8 +35,10 @@ all jobs button at the bottom of these cards. ✅
 where he/she will see a banner and all the details as shown in the figma.
 
 7) Clicking on the Apply Now button will add that job information to local storage.
+
 8) Create an Applied Jobs page showing all the applied jobs in a tabular/list view.
 Don’t forget to add a banner at the top.
+
 9) Create a statistics page. It cannot be a simple line/bar chart. The chart will be
 based on the assignment marks (all the marks you got so far) against the
 assignment number. Don’t forget to give tooltips ✅
@@ -44,18 +46,21 @@ assignment number. Don’t forget to give tooltips ✅
 
 Bonus requirements:
 
-1. Create a blog page and answer the following questions:
+1. Create a blog page and answer the following questions:  ✅
 a. When should you use context API?
 b. What is a custom hook?
 c. What is useRef?
 d. What is useMemo?
+
 2. Add a filter system or you can add two buttons on the applied job page. The filter
 system or 2 buttons will have:
 a. The remote option will show all the remote job postings
 b. The on-site option will show all the on-site job postings
+
 3. Clicking on the see all jobs button will load all the jobs and your site will not
 show 404 after the reload. Moreover, you must make the home page responsive for
-mobile and desktop.
+mobile and desktop.  ✅
+
 4. Your repository must have a minimum of 10 meaningful GitHub commits. Create a
 Readme file and make a list of the best features of your project. The list can be ordered
 or unordered. The Readme file must contain a live link(hosting) of your project.  

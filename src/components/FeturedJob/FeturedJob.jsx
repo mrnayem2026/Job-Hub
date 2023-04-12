@@ -26,7 +26,7 @@ const FeturedJob = () => {
             {/* Fetured Job Card display Start  */}
             <div className='grid  lg:grid-cols-2 gap-5 lg:gap-7 my-6'>
                 {
-                    fetureJob?.slice(0, showAll ? 6 : 4).map((oneJobCard) => <FeturedJobCard key={oneJobCard.id} oneJobCard={oneJobCard}></FeturedJobCard>)
+                    fetureJob?.slice(0, showAll ? 6 : 4)?.map((oneJobCard) => <FeturedJobCard key={oneJobCard.id} oneJobCard={oneJobCard}></FeturedJobCard>)
                 }
             </div>
 
