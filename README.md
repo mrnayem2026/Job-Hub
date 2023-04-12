@@ -7,6 +7,11 @@ Hosted in Netlify -> [CareerBoost]()
 
 ## Best features of "CareerBoost" project.
 
-- Item 1
-- Item 2
-- Item 3
+- You will see Featured Jobs.
+- You will find your favorite Jobs from Featured Jobs.
+And can apply there.
+- Click on view details to see job details.
+- Click on Show all jobs to see what jobs are available
+will see
+- If you click on Applied Jobs, you can see which jobs you have applied for.
+
